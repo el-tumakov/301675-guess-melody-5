@@ -5,6 +5,10 @@ import {GameType} from "../../const";
 class GenreQuestionScreen extends PureComponent {
   constructor(props) {
     super(props);
+
+    this.state = {
+      answers: [false, false, false, false],
+    };
   }
 
   render() {
