@@ -26,7 +26,7 @@ const store = createStore(
 
 Promise.all([
   store.dispatch(fetchQuestionList()),
-  store.dispatch(checkAuth()),
+  // store.dispatch(checkAuth()),
 ])
 .then(() => {
   ReactDOM.render(
